@@ -27,7 +27,7 @@
 #define FLAG_MERGED 4
 
 /*something to print if gdbm dies horribly*/
-void fatalError(char s[]);
+void fatalError(const char s[]);
 
 /*The wordfile, rhymefile and multiplefile are set by this function
   The flags are the bits set by the command-line arguments.

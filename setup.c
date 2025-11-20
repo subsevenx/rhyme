@@ -16,7 +16,7 @@ struct option long_options[] =
   {0,0,0,0}
 };
 
-void fatalError(char s[]) {
+void fatalError(const char s[]) {
   fprintf(stderr, s);
   exit(1);
 }

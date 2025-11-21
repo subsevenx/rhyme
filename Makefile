@@ -1,6 +1,6 @@
 CC = gcc
 INCLUDES = -I/usr/include/readline
-LIBS = -lgdbm -lreadline -ltermcap
+LIBS = -lgdbm -lreadline -lncurses
 FLAGS = -Wall -O
 
 DICTS = cmudict.0.6-2 cmudict.patch
